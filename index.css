@@ -1,5 +1,43 @@
 html, body {
-    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+    margin: 0 auto;
     padding: 0;
+    background-color: #EDEDED;
+    width: 375px;
 }
 
+header {
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #C6C6C6;
+}
+
+main {
+    margin-bottom: 5px;
+}
+
+header, main {
+    background-color: #ffffff;
+}
+
+.logo-img {
+    width: 127px;
+}
+
+.user-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+}
+
+.userinfo {
+
+    padding: 10px 10px;
+}
+
+.username {
+    font-weight: bold;
+}
