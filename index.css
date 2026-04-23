@@ -23,26 +23,32 @@ section {
     margin-bottom: 25px;
 }
 
-.logo-img {
+.logo {
     width: 127px;
 }
 
-.user-img {
+.avatar {
     width: 34px;
     height: 34px;
     border-radius: 50px;
 }
 
-.userinfo {
+.userinfo-container {
     display: flex;
     align-items: center;
+}
+
+.userinfo-container, 
+.icons {
     padding-left: 10px;
 }
 
-.user-text {
+.user-text-container {
     padding-left: 5px;
 }
 
+.name, 
+.likes,
 .username {
     font-weight: bold;
     margin-bottom: 0;
@@ -54,4 +60,27 @@ section {
 
 .post-img {
     width: 375px;
+}
+
+.icon-container {
+    padding-top: 20px;
+}
+
+.icons {
+    width: 23px;
+    opacity: 0.7;
+}
+
+.icons:hover,
+.icons:focus {
+    opacity: 1;
+}
+
+.comment {
+    padding-bottom: 15px;
+}
+
+.comment,
+.like-txt {
+    padding-left: 13px;
 }
